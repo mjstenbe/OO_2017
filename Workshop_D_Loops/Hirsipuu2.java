@@ -9,8 +9,8 @@ public class Hirsipuu2 {
 		String sana = reader.nextLine();
 		sana = sana.toLowerCase();
 		
-		// Works with a limited number of incorrect guesses. Also keeps track of total guesses
-		// and correctly guessed letters
+		/* Works with a limited number of incorrect guesses. Also keeps track of total guesses
+		and correctly guessed letters */
 		
 		int wrong = 5;
 		int guesses = 0;
