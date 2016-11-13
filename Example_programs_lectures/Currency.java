@@ -1,3 +1,5 @@
+package Example_programs_lectures;
+
 import java.util.Scanner;
 
 /*

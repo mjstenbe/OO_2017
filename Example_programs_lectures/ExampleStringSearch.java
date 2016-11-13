@@ -1,3 +1,4 @@
+package Example_programs_lectures;
 
 /*
  * This is a simple example to demonstrate the use of the String Class methods indexOf and lastIndexOf.

@@ -1,3 +1,5 @@
+package Example_programs_lectures;
+
 public class Printing {
 	public static void main(String[] args) {		
 		String a, b;

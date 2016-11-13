@@ -1,3 +1,4 @@
+package Example_programs_lectures;
 
 /*
  * Use the Eclipse debugger to identify what is the value of newAmount when year==4.

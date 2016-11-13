@@ -1,3 +1,5 @@
+package Example_programs_lectures;
+
 /*
  * This is a simple program to demonstrate some topics discussed in class: Variables, Data types, String concatenation
  */
