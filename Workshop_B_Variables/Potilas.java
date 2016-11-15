@@ -10,7 +10,7 @@ public class Potilas {
 		String Sukunimi = "Meikäläinen";
 		
 		// Concatenating String variables and printing
-		System.out.print(Etunimi + " " + Sukunimi);
+		System.out.println(Etunimi + " " + Sukunimi);
 		
 	}
 
