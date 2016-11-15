@@ -39,5 +39,6 @@ public class Arvosanoja {
 			System.out.println();
 		}
 		System.out.print("\n\nYhteensä: " + nimet.length + " opiskelijaa. \n");
+		lukija.close();
 	}
 }
