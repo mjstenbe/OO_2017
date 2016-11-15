@@ -6,7 +6,7 @@ public class Potilas {
 		
 		// Defining variables and setting values
 		String potilaanEtunimi = "Matti";
-		String potilaanSukunimi = "Meikkäläinen";
+		String potilaanSukunimi = "Meikäläinen";
 		
 		// Concatenating String variables and printing
 		System.out.print(potilaanEtunimi + " " + potilaanSukunimi);
