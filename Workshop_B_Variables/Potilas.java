@@ -1,15 +1,16 @@
 package Workshop_B_Variables;
 
+// This would be my solution for Potilas
 public class Potilas {
 
-	public static void main(String[] args) {
+	 void main() {
 		
 		// Defining variables and setting values
-		String potilaanEtunimi = "Matti";
-		String potilaanSukunimi = "Meikäläinen";
+		String Etunimi = "Matti";
+		String Sukunimi = "Meikäläinen";
 		
 		// Concatenating String variables and printing
-		System.out.print(potilaanEtunimi + " " + potilaanSukunimi);
+		System.out.println(Etunimi + " " + Sukunimi);
 		
 	}
 
