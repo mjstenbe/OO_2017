@@ -1,3 +1,5 @@
+package Workshop_A_Intro;
+
 import javax.swing.*;
 
 /**

@@ -1,7 +1,5 @@
-/**
- * Ensimmäinen sovellukseni.
- * Ohjelma tulostaa näytölle tervehdyksen
- */
+package Workshop_A_Intro;
+
 public class Hei {
 
 	/**
