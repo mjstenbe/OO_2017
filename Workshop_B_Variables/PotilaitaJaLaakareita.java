@@ -17,7 +17,7 @@ public class PotilaitaJaLaakareita {
 		
 		// Exercise 7
 		int forms = 8, formsPerPatient=3;
-		int qtyNewPatients = (int) forms/formsPerPatient;
+		int qtyNewPatients = forms/formsPerPatient;
 		System.out.println("The hospital can still take " + qtyNewPatients + " patients");
 		System.out.println("Remaining forms: " + forms%formsPerPatient);  //Using the modulo operator to calculate this one
 	}
