@@ -13,8 +13,7 @@ public class PotilaitaJaLaakareita {
 		// Exercise 6
 		laakareidenLkm -= 3;
 		System.out.println("Amount of doctors: " + laakareidenLkm);
-		double patientsPerDoctor = potilaidenLkm/laakareidenLkm;
-		System.out.println("Amount of patients per doctors: " + patientsPerDoctor);
+		System.out.println("Amount of patients per doctors: " + (potilaidenLkm/laakareidenLkm));
 		
 		// Exercise 7
 		int forms = 8, formsPerPatient=3;
