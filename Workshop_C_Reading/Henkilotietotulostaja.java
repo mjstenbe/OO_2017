@@ -8,10 +8,10 @@ public class Henkilotietotulostaja {
 
 		Scanner lukija = new Scanner(System.in);
 
-		// Luetaan tiedot
+		// Reading input from the user
 
-		System.out.println("Syötä henkilötiedot:");
-		System.out.println("--------------------");
+		System.out.println("SYÖTÄ HENKILÖTIEDOT:");
+		System.out.println("--------------------\n");
 
 		System.out.println("Anna etunimet:");
 		String etunimet = lukija.nextLine();
@@ -22,45 +22,25 @@ public class Henkilotietotulostaja {
 		System.out.println("Anna puhelin:");
 		String puhelin = lukija.nextLine();
 		
-		System.out.println("Anna email osoite:");
+		System.out.println("Anna sähköpostiosoite:");
 		String email = lukija.nextLine();
-		
-		// Just to get started
-		/*
-		if (email.indexOf("@")==0)
-		{
-				System.out.println("Virhellinen email osoite.");
-				System.out.println("Anna email osoite:");
-				email = luka.nextLine();
-		}
-		*/
-		
-		// Better solution
-		while (email.indexOf("@")<0 || email.indexOf(".")<0)
-		{
-				System.out.println("Virhellinen email osoite.");
-				System.out.println("Anna email osoite:");
-				email = lukija.nextLine();
-		}
-		
+				
 		System.out.println("Anna syntymävuosi:");
 		int svuosi = lukija.nextInt();
-
-		// Tulostetaan tiedot
-
-		System.out.println("Henkilötietosi: ");
-
-		System.out.println("Kiitos! \n");
-		System.out.println("Henkilön tiedot");
-		System.out.println("--------------------");
-
-		System.out.println("Nimi: ");
+		
+		lukija.close(); // Closing the "lukija" object so that Eclipse does not a warning about a scanner not being closed 
+		
+		// Printing the results
+		System.out.println("\nKIITOS!\n\n");
+		System.out.println("HENKILÖTIETOSI: ");
+		System.out.println("--------------------\n");
+		System.out.println("NIMI: ");
 		System.out.println("\t" + sukunimi + ", " + etunimet);
-		System.out.println("Puh: ");
+		System.out.println("PUH: ");
 		System.out.println("\t" + puhelin);
-		System.out.println("Ikä: ");
-		System.out.println("\t" + (2013 - svuosi));
-
+		System.out.println("E-MAIL: ");
+		System.out.println("\t" + email);
+		System.out.println("IKÄ: ");
+		System.out.println("\t" + (2017 - svuosi));
 	}
-
 }
