@@ -8,10 +8,7 @@ public class LukujenVertailu {
 		System.out.println("Syötä ikä: ");
 		ika = syote.nextInt();
 		
-		if (ika>150) {
-			System.out.println("Virheellinen ikä!");
-		}
-		else if (ika<0) {
+		if (ika<0 || ika>150) {
 			System.out.println("Virheellinen ikä!");
 		}
 		else if (ika<6) {
@@ -20,7 +17,7 @@ public class LukujenVertailu {
 		else if (ika==14) {
 			System.out.println("Haastava ikä");
 		}
-		else if (ika >=16 && ika<=18) {
+		else if (ika >=16 && ika<18) {
 			System.out.println("Lähes aikuinen");
 		}
 		else if (ika>=18 && ika<30) {

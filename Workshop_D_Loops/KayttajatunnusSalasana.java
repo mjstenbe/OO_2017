@@ -10,16 +10,16 @@ public class KayttajatunnusSalasana {
 		boolean success = false;
         
         System.out.println("Syötä käyttäjänimi (tallenetaan): ");
-        user = sc.next();
+        user = sc.nextLine();
         System.out.println("Syötä salasana (tallenetaan): ");
-        pw = sc.next();
+        pw = sc.nextLine();
                       
         do {
         		System.out.println("Syötä käyttäjänimi ja salasana");
         		System.out.print("Käyttäjä: ");
-        		userConf = sc.next();
+        		userConf = sc.nextLine();
         		System.out.print("Salasana: ");
-        		pwConf = sc.next();
+        		pwConf = sc.nextLine();
         		
                 if (user.equals(userConf) && pw.equals(pwConf)) {
                 	System.out.println("\n******Oikein meni!");
