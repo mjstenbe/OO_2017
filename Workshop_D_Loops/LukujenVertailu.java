@@ -14,6 +14,10 @@ public class LukujenVertailu {
 		else if (ika<6) {
 			System.out.println("Esikoululainen");
 		}
+		else if (ika>=6 && ika<14)
+		{
+			System.out.println("Olet lapsi");
+		}
 		else if (ika==14) {
 			System.out.println("Haastava ikä");
 		}

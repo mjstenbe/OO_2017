@@ -11,7 +11,7 @@ public class Kertotaulu {
 		System.out.print(luku + ":n kertotaulu 1-20 on:\n\n");
 		
 		for(int i = 1; i<=20; ++i) {
-			System.out.println(luku + " x " + i + " = " + (i*luku));
+			System.out.printf("%d x %2d = %d\n", luku, i, (i*luku));
 		}
 		reader.close();
 	}
