@@ -8,7 +8,7 @@ public class Teht1 {
 		
 		// a) Tulosta ruudulle lause ”Alkiossa numero 3 on :
 		// ” ja liitä perään merkkijonotaulukon kolmas alkio
-		System.out.print("A) " + kokluktaul[2]);
+		System.out.print("A) " + merkkitaul[2]);
 		System.out.println();
 		
 		// b) Tulosta ruudulle lause ”Alkiossa numero 5 on :
@@ -25,21 +25,25 @@ public class Teht1 {
 		
 		// d) Kirjoita kokonaislukutaulukkoa varten for-lause,
 		// jolla tulostat taulukon sisällön ruudulle
+		System.out.print("D) Kokonailukutaulukko: ");
 		for (int laskuri = 0; laskuri < kokluktaul.length; laskuri++) {
-			System.out.println("D) " + kokluktaul[laskuri]);
+			System.out.print(kokluktaul[laskuri] + " ");
 		}
+		System.out.println();
 		
 		// e) Kirjoita desimaalilukutaulukkoa varten for –lause,
 		// jolla tulostat taulukon käänteisessä järjestyksessä
+		System.out.print("E) Desimaalitaulukon käänteisessä järjestyksessä: ");
 		for (int i = desluktaul.length - 1; i >= 0; --i) {
-			System.out.println("E) " + desluktaul[i]);
+			System.out.print(desluktaul[i] + " ");
 		}
+		System.out.println();
 		
 		// f) Kirjoita merkkijonotaulukkoa varten do-while – lause,
 		// jolla asetat alkioiden arvoksi tekstin ”Tyhjä”.
 		int laskr = 0;
 		do {
-			System.out.println("F) " + merkkitaul[laskr]);
+			merkkitaul[laskr] = "";
 			laskr++;
 		} while (laskr < merkkitaul.length);
 	}

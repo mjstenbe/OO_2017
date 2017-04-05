@@ -3,41 +3,26 @@ package Workshop_F_Arrays;
 import java.util.Arrays;
 import java.util.Scanner;
 
-
 public class Keskiarvoja {
-
-	public static void main(String[] args){
-		
+	public static void main(String[] args){		
 		Scanner lukija = new Scanner(System.in);
 		int [] arvosanat = new int[5];
 		
 		for (int i=0; i < arvosanat.length; i++){
-			System.out.print("Syötä arvosana: ");
+			System.out.print("Syötä " + (i+1) + ". arvosana: ");
 			arvosanat[i] = lukija.nextInt();
 		}
-		// Tulostetaan taulukko
-		for (int i=0; i < arvosanat.length; i++){
-			System.out.print("Indeksi: "+i);
-			System.out.println(" Arvosana: "+arvosanat[i]);
-		}
 		
-		// Järjestetään taulukko
+		lukija.close();
 		
-		Arrays.sort(arvosanat);
-		
-		// Tulostetaan
+		Arrays.sort(arvosanat);  // Järjestetään taulukko
 		
 		// Tulostetaan taulukko
-		
-		System.out.println("Taulukko järjestettynä: ");
-		
+		System.out.println("Arvosanat järjestyksessä: ");		
 		for (int i=0; i < arvosanat.length; i++){
-			System.out.print("Indeksi: "+i);
-			System.out.println(" Arvosana: "+arvosanat[i]);
+			System.out.print(arvosanat[i] + " ");
 		}
-
-		
-		System.out.println("Taulukon keskiarvo: ");
+		System.out.println();
 		
 		double keskiarvo = 0; 
 		
@@ -47,10 +32,6 @@ public class Keskiarvoja {
 			//keskiarvo = keskiarvo + arvosanat[i];
 		}
 		
-		System.out.println("Alkiot yhteensä: "+keskiarvo);
-		System.out.println("Keskiarvo: "+keskiarvo / arvosanat.length);
-		
-		
+		System.out.println("Keskiarvo: "+keskiarvo / arvosanat.length);		
 	}
-	
 }

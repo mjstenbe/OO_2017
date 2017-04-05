@@ -11,6 +11,7 @@ public class EtsiminenTaulukosta2 {
         String[] nimiTaulu = {"Petteri", "Kauko", "Matti", "Minna", "Maisa", "Juuso", "Mauno"};
         System.out.println("Mitä haluat etsiä: ");
         String find = reader.nextLine();
+        
         for (int i = 0; i <= lukuTaulu.length-1; ++i) {
             String num = String.valueOf(lukuTaulu[i]);
             if (find.equals(num)) {
@@ -22,6 +23,7 @@ public class EtsiminenTaulukosta2 {
                 System.out.println("Löytyi nimi taulukon alkiosta numero: " + i);
             }
         }
+
         reader.close();
     }
 
