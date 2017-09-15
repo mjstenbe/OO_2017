@@ -24,6 +24,8 @@ public class Henkilotietotulostaja {
 		*/
 
 		// CODE TO READ THE REMAINING INPUT HERE ...
+		// ...
+		// ...
 		
 		
 		// Printing the results. At this point you have read all the input from the user
@@ -35,6 +37,9 @@ public class Henkilotietotulostaja {
 		System.out.println("\t" + sukunimi + ", " + etunimet);
 		
 		// CODE TO PRINT THE REMAINING OUPUTS HERE ...
-			
+		// ...
+		// ...
+		
+		lukija.close();
 	}
 }
