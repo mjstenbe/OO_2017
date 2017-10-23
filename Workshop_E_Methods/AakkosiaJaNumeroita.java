@@ -10,11 +10,11 @@ public class AakkosiaJaNumeroita {
 
 	}
 
-	public static void tulostaNumerot() {
+	private static void tulostaNumerot() {
 		System.out.println("1234567890");
 	}
 
-	public static void tulostaAaakoset() {
+	private static void tulostaAaakoset() {
 		System.out.println("abcdefghijklmnopqrstu...");
 	}
 

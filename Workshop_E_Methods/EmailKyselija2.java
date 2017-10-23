@@ -2,7 +2,7 @@ package Workshop_E_Methods;
 
 import java.util.Scanner;
 
-public class EmailKyselija {
+public class EmailKyselija2 {
 
 	public static void main(String[] args) {
 
@@ -12,14 +12,12 @@ public class EmailKyselija {
 
 	public static String kysyEmail() {
 		Scanner lukija = new Scanner(System.in);
-		boolean loytyi;
-		String email;
+		String email = "invalid_email";
 		
-		do {
+		while (email.indexOf('@') < 0){
 			System.out.print("Anna email: ");
 			email = lukija.nextLine();
-			loytyi = (email.indexOf('@') >= 0);
-		} while (loytyi != true);
+		};
 		
 		return email;
 	}
