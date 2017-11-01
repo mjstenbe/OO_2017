@@ -3,7 +3,7 @@ package Workshop_F_Arrays;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Keskiarvoja {
+public class Teht2 {
 	public static void main(String[] args){		
 		Scanner lukija = new Scanner(System.in);
 		int [] arvosanat = new int[5];

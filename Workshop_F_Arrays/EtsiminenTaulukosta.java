@@ -15,7 +15,7 @@ public class EtsiminenTaulukosta {
 
 		for (int i = 0; i < nimiTaulu.length; i++) {
 
-			if (name.equalsIgnoreCase((nimiTaulu[i]))) {
+			if (name.equalsIgnoreCase(nimiTaulu[i])) {
 				System.out.println("Nimi löytyy alkiosta numero: " + i);
 			}
 		}
