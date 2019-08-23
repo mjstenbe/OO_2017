@@ -1,4 +1,4 @@
-package Kirjasto_DB_retrieve;
+package MySQL_GUI;
 
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
